@@ -31,4 +31,20 @@ public class MaximumValue {
         System.out.println("Maximum Float number is " + max);
         return max;
     }
+
+    /**
+     * Find String maximum value
+     */
+    public String findMax(String value1, String value2, String value3) {
+        String max = value1;
+        if (value2.compareTo(max) > 0) {
+            max = value2;
+        }
+        if (value3.compareTo(max) > 0) {
+            max = value3;
+        }
+        System.out.println("Maximum String number is " + max);
+        return max;
+    }
+
 }
