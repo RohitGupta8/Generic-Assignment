@@ -9,6 +9,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+<<<<<<< HEAD
 
 
 Game.iml
@@ -39,3 +40,5 @@ Game.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+=======
+>>>>>>> d0be5e1e3c0ba08b05e97d84ce06bc91bbb8ec48
